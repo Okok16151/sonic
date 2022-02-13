@@ -9,95 +9,95 @@
 			"fps": 24,
 			"anim": "idle",
 			"indices": [],
-			"name": "BF idle dance"
+			"name": "sonicX IDLE"
 		},
 		{
 			"offsets": [
-				5,
-				-6
+				137,
+				-16
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "BF NOTE LEFT0"
+			"name": "sonicx LEFT"
 		},
 		{
 			"offsets": [
-				-10,
-				-50
+				81,
+				-29
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "BF NOTE DOWN0"
+			"name": "sonicx DOWN"
 		},
 		{
 			"offsets": [
-				-29,
-				27
+				111,
+				155
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
 			"indices": [],
-			"name": "BF NOTE UP0"
+			"name": "sonicx UP"
 		},
 		{
 			"offsets": [
-				-48,
-				-7
+				-69,
+				-1
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "BF NOTE RIGHT0"
+			"name": "sonicx RIGHT"
 		},
 		{
 			"offsets": [
-				7,
-				19
+				137,
+				-17
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singLEFTmiss",
+			"anim": "singLEFT-alt",
 			"indices": [],
-			"name": "BF NOTE LEFT MISS"
+			"name": "sonicx LEFT"
 		},
 		{
 			"offsets": [
-				-15,
-				-19
+				145,
+				-17
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singDOWNmiss",
+			"anim": "singDOWN-alt",
 			"indices": [],
-			"name": "BF NOTE DOWN MISS"
+			"name": "sonicx LEFT"
 		},
 		{
 			"offsets": [
-				-36,
-				27
+				-66,
+				-3
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singUPmiss",
+			"anim": "singUP-alt",
 			"indices": [],
-			"name": "BF NOTE UP MISS"
+			"name": "sonicx RIGHT"
 		},
 		{
 			"offsets": [
-				-44,
-				22
+				-70,
+				-3
 			],
 			"loop": false,
 			"fps": 24,
-			"anim": "singRIGHTmiss",
+			"anim": "singRIGHT-alt",
 			"indices": [],
-			"name": "BF NOTE RIGHT MISS"
+			"name": "sonicx RIGHT"
 		},
 		{
 			"offsets": [
@@ -200,22 +200,22 @@
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/Minus_X",
 	"position": [
 		0,
-		250
+		-120
 	],
-	"healthicon": "bf",
-	"flip_x": true,
+	"healthicon": "MinusX",
+	"flip_x": false,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		69,
+		76,
+		129
 	],
 	"camera_position": [
-		0,
-		0
+		10,
+		10
 	],
 	"sing_duration": 4,
-	"scale": 1
+	"scale": 1.3
 }

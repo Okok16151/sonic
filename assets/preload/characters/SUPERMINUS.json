@@ -2,102 +2,91 @@
 	"animations": [
 		{
 			"offsets": [
-				-5,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "BF idle dance"
-		},
-		{
-			"offsets": [
-				5,
-				-6
+				35,
+				-17
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "BF NOTE LEFT0"
+			"name": "BF NOTE LEFT instance 1"
 		},
 		{
 			"offsets": [
-				-10,
-				-50
+				-7,
+				-70
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "BF NOTE DOWN0"
+			"name": "BF NOTE DOWN instance 1"
 		},
 		{
 			"offsets": [
 				-29,
-				27
+				-5
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
 			"indices": [],
-			"name": "BF NOTE UP0"
+			"name": "BF NOTE UP instance 1"
 		},
 		{
 			"offsets": [
-				-48,
-				-7
+				-39,
+				2
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "BF NOTE RIGHT0"
+			"name": "BF NOTE RIGHT instance 1"
 		},
 		{
 			"offsets": [
 				7,
-				19
+				0
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFTmiss",
 			"indices": [],
-			"name": "BF NOTE LEFT MISS"
+			"name": "BF L MISS instance 1"
 		},
 		{
 			"offsets": [
-				-15,
-				-19
+				5,
+				-85
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWNmiss",
 			"indices": [],
-			"name": "BF NOTE DOWN MISS"
+			"name": "BF D MISS instance 1"
 		},
 		{
 			"offsets": [
-				-36,
-				27
+				-6,
+				28
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singUPmiss",
 			"indices": [],
-			"name": "BF NOTE UP MISS"
+			"name": "BF U MISS instance 1"
 		},
 		{
 			"offsets": [
-				-44,
-				22
+				-54,
+				2
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHTmiss",
 			"indices": [],
-			"name": "BF NOTE RIGHT MISS"
+			"name": "BF R MISS instance 1"
 		},
 		{
 			"offsets": [
@@ -197,24 +186,35 @@
 			"anim": "pre-attack",
 			"indices": [],
 			"name": "bf pre attack"
+		},
+		{
+			"offsets": [
+				-5,
+				1
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "BF Super idle dance"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/MINUSSUPER",
 	"position": [
-		0,
-		250
+		-190,
+		110
 	],
-	"healthicon": "bf",
+	"healthicon": "superbf",
 	"flip_x": true,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		255,
+		255,
+		0
 	],
 	"camera_position": [
-		0,
-		0
+		-30,
+		100
 	],
 	"sing_duration": 4,
 	"scale": 1

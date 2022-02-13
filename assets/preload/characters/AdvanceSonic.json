@@ -2,30 +2,19 @@
 	"animations": [
 		{
 			"offsets": [
-				-5,
-				0
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "idle",
-			"indices": [],
-			"name": "BF idle dance"
-		},
-		{
-			"offsets": [
-				5,
-				-6
+				-59,
+				208
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "BF NOTE LEFT0"
+			"name": "BF NOTE RIGHT0"
 		},
 		{
 			"offsets": [
-				-10,
-				-50
+				43,
+				190
 			],
 			"loop": false,
 			"fps": 24,
@@ -35,8 +24,8 @@
 		},
 		{
 			"offsets": [
-				-29,
-				27
+				-8,
+				228
 			],
 			"loop": false,
 			"fps": 24,
@@ -46,19 +35,19 @@
 		},
 		{
 			"offsets": [
-				-48,
-				-7
+				-32,
+				208
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "BF NOTE RIGHT0"
+			"name": "BF NOTE LEFT0"
 		},
 		{
 			"offsets": [
 				7,
-				19
+				229
 			],
 			"loop": false,
 			"fps": 24,
@@ -69,7 +58,7 @@
 		{
 			"offsets": [
 				-15,
-				-19
+				231
 			],
 			"loop": false,
 			"fps": 24,
@@ -79,8 +68,8 @@
 		},
 		{
 			"offsets": [
-				-36,
-				27
+				54,
+				247
 			],
 			"loop": false,
 			"fps": 24,
@@ -90,8 +79,8 @@
 		},
 		{
 			"offsets": [
-				-44,
-				22
+				16,
+				232
 			],
 			"loop": false,
 			"fps": 24,
@@ -101,8 +90,8 @@
 		},
 		{
 			"offsets": [
-				-3,
-				5
+				107,
+				255
 			],
 			"loop": false,
 			"fps": 24,
@@ -197,24 +186,35 @@
 			"anim": "pre-attack",
 			"indices": [],
 			"name": "bf pre attack"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-45,
+				210
+			],
+			"anim": "idle",
+			"fps": 7,
+			"name": "BF idle dance",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/BOYFRIEND",
+	"image": "characters/AdvanceSonic",
 	"position": [
-		0,
-		250
+		150,
+		440
 	],
-	"healthicon": "bf",
-	"flip_x": true,
+	"healthicon": "adsonic",
+	"flip_x": false,
 	"healthbar_colors": [
-		49,
-		176,
-		209
+		0,
+		116,
+		229
 	],
 	"camera_position": [
-		0,
-		0
+		200,
+		-290
 	],
 	"sing_duration": 4,
 	"scale": 1
